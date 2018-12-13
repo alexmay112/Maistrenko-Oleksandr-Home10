@@ -1,6 +1,8 @@
 .social-widgets {
   margin-bottom: 30px;
+  padding: 17px 27px;
   text-align: center;
+  background-color: $main-theme-color;
   @include respond-to('huge') {
     display: inline-block;
     margin-bottom: 0;
@@ -19,4 +21,11 @@
     margin-left: 5px;
     font-size: 14px;
   }
+}
+.discription-photo .social-widgets {
+  margin-bottom: 0;
+  display: none;
+}
+.discription-photo:hover .social-widgets {
+  display: block;
 }

@@ -1,0 +1,15 @@
+.slide-control {
+  margin: 0;
+  text-align: right;
+
+  li {
+    display: inline-block;
+  }
+
+  a {
+    padding: 10px 15px;
+    display: inline-block;
+    color: #fff;
+    background-color: $main-theme-color;
+  }
+}

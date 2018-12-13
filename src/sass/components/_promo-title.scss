@@ -1,6 +1,30 @@
-.promo-title {
+.promo .promo-title {
   text-align: center;
   padding-bottom: 30px;
+
+  .section-title {
+    @include respond-to('small') {
+      font-size: 60px;
+    }
+    @include respond-to('medium') {
+      font-size: 80px;
+    }
+    @include respond-to('huge') {
+      font-size: 116px;
+    }
+  }
+
+  .section-discription {
+    @include respond-to('small') {
+      font-size: 24px;
+    }
+    @include respond-to('medium') {
+      font-size: 32px;
+    }
+    @include respond-to('huge') {
+      font-size: 80px;
+    }
+  }
 }
 
 .section-title {
@@ -10,20 +34,20 @@
   text-transform: uppercase;
   color: $main-theme-color;
   @include respond-to('small') {
-    font-size: 86px;
+    font-size: 24px;
   }
   @include respond-to('medium') {
-    font-size: 116px;
+    font-size: 32px;
   }
 }
 
 .section-discription {
-  margin-top: 0;
+  margin: 0;
   font-family: $section-discription-font;
   @include respond-to('small') {
-    font-size: 60px;
+    font-size: 24px;
   }
   @include respond-to('medium') {
-    font-size: 80px;
+    font-size: 32px;
   }
 }
