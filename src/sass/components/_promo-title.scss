@@ -1,0 +1,29 @@
+.promo-title {
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.section-title {
+  margin-bottom: 0;
+  font-family: $section-title-font;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: $main-theme-color;
+  @include respond-to('small') {
+    font-size: 86px;
+  }
+  @include respond-to('medium') {
+    font-size: 116px;
+  }
+}
+
+.section-discription {
+  margin-top: 0;
+  font-family: $section-discription-font;
+  @include respond-to('small') {
+    font-size: 60px;
+  }
+  @include respond-to('medium') {
+    font-size: 80px;
+  }
+}

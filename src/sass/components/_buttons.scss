@@ -1,10 +1,14 @@
-.button {
+%button {
   padding: 20px 44px;
   border-radius: 100px;
-  color: $main-theme-color;
   font-size: 12px;
   font-weight: 700;
   text-transform: uppercase;
+}
+
+.button {
+  @extend %button;
+  color: $main-theme-color;
   background-color: #fff;
 }
 
@@ -12,4 +16,10 @@ header .button {
   @include respond-to('huge') {
     margin-left: 56px;
   }
+}
+
+.inverse {
+  @extend %button;
+  color: #fff;
+  background-color: $main-theme-color;
 }

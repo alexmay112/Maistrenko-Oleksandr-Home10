@@ -1,0 +1,29 @@
+.promo {
+  min-height: 100vh;
+  position: relative;
+  background: url("../img/promo-bg.png") 50% 100px no-repeat;
+  background-size: cover;
+
+  @include respond-to('small') {
+    background-position: 50% 460px;
+  }
+  @include respond-to('medium') {
+    background-position: 50% 100px;
+  }
+
+  &::after {
+    content: '';
+    min-width: 100px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    background-color: $main-theme-color;
+    @include respond-to('medium') {
+      min-width: 300px;
+    }
+    @include respond-to('huge') {
+      min-width: 600px;
+    }
+  }
+}
