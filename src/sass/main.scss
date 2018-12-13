@@ -1,8 +1,13 @@
 @import "normalize/import-now";
 
 @import 'utils/variables';
+@import 'utils/mixins';
 
 @import 'base/basic';
+
+@import 'components/navigation';
+@import 'components/social-widgets';
+@import 'components/buttons';
 
 @import 'layout/grid';
 @import 'layout/header';

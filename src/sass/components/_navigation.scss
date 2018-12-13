@@ -1,0 +1,39 @@
+.nav-main {
+
+  .navigation {
+    margin: 0;
+  }
+
+  li {
+    &:first-child a {
+      margin-left: 0;
+    }
+
+    text-align: center;
+    @include respond-to('medium') {
+      display: inline-block;
+    }
+  }
+
+  a {
+    display: block;
+    margin-left: 5px;
+    padding: 10px;
+    position: relative;
+    color: #ffffff;
+    text-transform: uppercase;
+
+    &.active::before {
+      content: '';
+      height: 1px;
+      width: 100%;
+      background-color: #fff;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      opacity: 0.5;
+    }
+  }
+}
+

@@ -1,0 +1,8 @@
+$breakpoints: (
+  'small': (min-width: 320px),
+  'medium': (min-width: 800px),
+  'large': (min-width: 1000px),
+  'huge': (min-width: 1200px),
+);
+$default-color-text: #333;
+$main-theme-color: #df001f;
