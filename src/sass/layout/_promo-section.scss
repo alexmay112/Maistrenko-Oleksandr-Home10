@@ -1,5 +1,8 @@
 .promo {
   min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   position: relative;
   background: url("../img/promo-bg.png") 50% 100px no-repeat;
   background-size: cover;
@@ -11,19 +14,20 @@
     background-position: 50% 100px;
   }
 
-  &::after {
-    content: '';
-    min-width: 100px;
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    height: 3px;
-    background-color: $main-theme-color;
-    @include respond-to('medium') {
-      min-width: 300px;
-    }
-    @include respond-to('huge') {
-      min-width: 600px;
-    }
-  }
+  //&::after {
+  //  content: '';
+  //  min-width: 100px;
+  //  position: absolute;
+  //  left: 0;
+  //  bottom: 0;
+  //  height: 3px;
+  //  background-color: $main-theme-color;
+  //  @include respond-to('medium') {
+  //    min-width: 300px;
+  //  }
+  //  @include respond-to('huge') {
+  //    min-width: 600px;
+  //  }
+  //}
+
 }

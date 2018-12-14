@@ -1,8 +1,13 @@
+.promo-title {
+  text-align: left;
+}
+
 .promo .promo-title {
   text-align: center;
   padding-bottom: 30px;
 
   .section-title {
+    color: $main-theme-color;
     @include respond-to('small') {
       font-size: 60px;
     }
@@ -15,6 +20,7 @@
   }
 
   .section-discription {
+    color: $default-color-text;
     @include respond-to('small') {
       font-size: 24px;
     }
@@ -32,7 +38,6 @@
   font-family: $section-title-font;
   font-weight: 700;
   text-transform: uppercase;
-  color: $main-theme-color;
   @include respond-to('small') {
     font-size: 24px;
   }
@@ -44,10 +49,15 @@
 .section-discription {
   margin: 0;
   font-family: $section-discription-font;
+  color: $main-theme-color;
   @include respond-to('small') {
     font-size: 24px;
   }
   @include respond-to('medium') {
     font-size: 32px;
   }
+}
+
+.upcoming .promo-title {
+  margin-bottom: 55px;
 }
