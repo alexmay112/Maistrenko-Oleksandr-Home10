@@ -1,3 +1,7 @@
+.upcoming-and-latest {
+  margin-bottom: 40px;
+}
+
 .upcoming {
   text-align: center;
   @include respond-to('medium') {
@@ -10,11 +14,7 @@
 }
 
 .consert-box {
-  //display: inline-block;
   flex-direction: column;
-  @include respond-to('small') {
-    //display: inline-block;
-  }
   @include respond-to('huge') {
     display: flex;
     flex-direction: row;
@@ -33,21 +33,7 @@
   }
 }
 
-.total-base {
-  margin-top: 40px;
-  background-color: #e9e9e9;
-
-  .drag-base {
-    width: 20%;
-    height: 4px;
-    margin-left: 15px;
-    display: block;
-    background-color: $main-theme-color;
-  }
-}
-
 .latest {
-  //margin-top: 60px;
   @include respond-to('medium') {
     display: inline-block;
     float: right;
