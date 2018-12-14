@@ -1,0 +1,39 @@
+.popular-and-instagram {
+  .upcoming {
+    @include respond-to('large') {
+      max-width: 770px;
+    }
+  }
+
+  .consert-details-box {
+    @include respond-to('large') {
+      margin-left: 10px;
+    }
+    @include respond-to('huge') {
+      max-width: 568px;
+      margin-left: 10px;
+    }
+  }
+
+  .latest {
+    @include respond-to('small') {
+      float: none;
+    }
+    @include respond-to('huge') {
+      float: right;
+    }
+
+    .promo-title {
+      margin-bottom: 55px;
+    }
+  }
+
+  .consert-photo {
+    margin: 0;
+    column-count: 2;
+
+    li {
+      margin-bottom: 16px;
+    }
+  }
+}

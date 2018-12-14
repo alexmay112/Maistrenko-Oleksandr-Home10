@@ -11,23 +11,6 @@
     background-position: 50% 460px;
   }
   @include respond-to('medium') {
-    background-position: 50% 100px;
+    background-position: 50% 200px;
   }
-
-  //&::after {
-  //  content: '';
-  //  min-width: 100px;
-  //  position: absolute;
-  //  left: 0;
-  //  bottom: 0;
-  //  height: 3px;
-  //  background-color: $main-theme-color;
-  //  @include respond-to('medium') {
-  //    min-width: 300px;
-  //  }
-  //  @include respond-to('huge') {
-  //    min-width: 600px;
-  //  }
-  //}
-
 }
