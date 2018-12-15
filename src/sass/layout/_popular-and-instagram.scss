@@ -1,4 +1,5 @@
 .popular-and-instagram {
+  padding-bottom: 85px;
   .upcoming {
     @include respond-to('large') {
       max-width: 770px;

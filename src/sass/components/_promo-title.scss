@@ -3,35 +3,27 @@
 }
 
 .section-title {
-  margin-bottom: 0;
+  margin: 103px 0 0 0;
   font-family: $section-title-font;
+  font-size: 32px;
   font-weight: 400;
   text-transform: uppercase;
-  @include respond-to('small') {
-    font-size: 24px;
-  }
-  @include respond-to('medium') {
-    font-size: 32px;
-  }
 }
 
 .section-discription {
   margin: 0;
   font-family: $section-discription-font;
+  font-size: 32px;
   color: $main-theme-color;
-  @include respond-to('small') {
-    font-size: 24px;
-  }
-  @include respond-to('medium') {
-    font-size: 32px;
-  }
 }
 
 .promo .promo-title {
   text-align: center;
-  padding-bottom: 30px;
+  //padding-bottom: 30px;
 
   .section-title {
+    margin: 0;
+    font-weight: 700;
     color: $main-theme-color;
     @include respond-to('small') {
       font-size: 60px;
@@ -47,9 +39,6 @@
   .section-discription {
     color: $default-color-text;
     @include respond-to('small') {
-      font-size: 24px;
-    }
-    @include respond-to('medium') {
       font-size: 32px;
     }
     @include respond-to('huge') {

@@ -1,10 +1,23 @@
 .founder-section {
   .container-bg {
     min-height: 370px;
-    padding: 1px 15px 30px 15px;
+    padding: 15px;
     display: flex;
     align-items: center;
     background: url("../img/founder-bg.png") 100% 0 no-repeat;
     background-size: cover;
+
+    .promo-title {
+      @include respond-to('small') {
+        text-align: center;
+      }
+      @include respond-to('medium') {
+        text-align: left;
+      }
+    }
+  }
+
+  .section-title {
+    margin-top: 0;
   }
 }

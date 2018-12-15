@@ -8,9 +8,15 @@
   background-size: cover;
 
   @include respond-to('small') {
-    background-position: 50% 460px;
+    background-position: 35% 460px;
   }
   @include respond-to('medium') {
+    background-position: 40% 260px;
+  }
+  @include respond-to('large') {
+    background-position: 45% 200px;
+  }
+  @include respond-to('huge') {
     background-position: 50% 100px;
   }
 }
