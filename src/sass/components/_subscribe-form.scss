@@ -1,0 +1,28 @@
+.subscribe-form {
+  min-height: 250px;
+  border-bottom: 1px solid #d2d2d2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  input[type='email'] {
+    padding-right: 20px;
+    position: relative;
+    border-bottom: 4px solid #999;
+    font-size: 16px;
+    color: #282828;
+    line-height: 40px;
+    letter-spacing: 3.2px;
+    @include respond-to('small') {
+      max-width: 530px;
+    }
+    @include respond-to('medium') {
+      width: 530px;
+    }
+  }
+
+  input[type='image'] {
+    transform: translateX(-15px);
+  }
+}
+

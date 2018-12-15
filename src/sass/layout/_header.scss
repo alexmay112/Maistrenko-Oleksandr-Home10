@@ -14,7 +14,6 @@ header {
 
 .logo-main {
   display: inline-block;
-  //text-align: center;
   @include respond-to('huge') {
     position: absolute;
     top: 50%;

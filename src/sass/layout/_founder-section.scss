@@ -7,34 +7,4 @@
     background: url("../img/founder-bg.png") 100% 0 no-repeat;
     background-size: cover;
   }
-
-  .promo-title {
-    @include respond-to('medium') {
-      margin-left: 100px;
-    }
-
-    h2 {
-      font-size: 32px;
-      color: #fff;
-      text-shadow: 0 0 5px #000;
-    }
-
-    p {
-      margin-bottom: 30px;
-      font-size: 22px;
-      color: #fff;
-      text-shadow: 0 0 5px #000;
-      font-family: $section-title-font;
-
-      &.container {
-        max-width: 556px;
-        padding: 0;
-      }
-
-      .band-name {
-        font-size: 64px;
-        font-family: $section-discription-font;
-      }
-    }
-  }
 }

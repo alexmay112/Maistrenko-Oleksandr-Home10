@@ -2,6 +2,31 @@
   text-align: left;
 }
 
+.section-title {
+  margin-bottom: 0;
+  font-family: $section-title-font;
+  font-weight: 400;
+  text-transform: uppercase;
+  @include respond-to('small') {
+    font-size: 24px;
+  }
+  @include respond-to('medium') {
+    font-size: 32px;
+  }
+}
+
+.section-discription {
+  margin: 0;
+  font-family: $section-discription-font;
+  color: $main-theme-color;
+  @include respond-to('small') {
+    font-size: 24px;
+  }
+  @include respond-to('medium') {
+    font-size: 32px;
+  }
+}
+
 .promo .promo-title {
   text-align: center;
   padding-bottom: 30px;
@@ -33,31 +58,59 @@
   }
 }
 
-.section-title {
-  margin-bottom: 0;
-  font-family: $section-title-font;
-  font-weight: 700;
-  text-transform: uppercase;
-  @include respond-to('small') {
-    font-size: 24px;
-  }
-  @include respond-to('medium') {
-    font-size: 32px;
-  }
-}
-
-.section-discription {
-  margin: 0;
-  font-family: $section-discription-font;
-  color: $main-theme-color;
-  @include respond-to('small') {
-    font-size: 24px;
-  }
-  @include respond-to('medium') {
-    font-size: 32px;
-  }
-}
-
 .upcoming .promo-title {
   margin-bottom: 55px;
+}
+
+.founder-section {
+  .promo-title {
+    @include respond-to('medium') {
+      margin-left: 100px;
+    }
+
+    h2 {
+      font-size: 32px;
+      color: #fff;
+      text-shadow: 0 0 5px #000;
+    }
+
+    p {
+      margin-bottom: 30px;
+      font-size: 22px;
+      color: #fff;
+      text-shadow: 0 0 5px #000;
+      font-family: $section-title-font;
+
+      &.container {
+        max-width: 556px;
+        padding: 0;
+      }
+    }
+  }
+}
+
+.band-name {
+  font-size: 64px;
+  font-family: $section-discription-font;
+}
+
+.download-section {
+  .promo-title {
+    margin: 0 auto;
+
+    h2 {
+      color: #fff;
+      text-align: center;
+      font-weight: 500;
+    }
+
+    p {
+      padding: 15px;
+      color: #fff;
+      font-size: 22px;
+      letter-spacing: 1.1px;
+      text-align: center;
+      font-family: $section-title-font;
+    }
+  }
 }

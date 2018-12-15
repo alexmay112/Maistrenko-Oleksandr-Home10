@@ -1,0 +1,10 @@
+.download-section {
+  .container-bg {
+    min-height: 354px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background: url("../img/download-bg.png") 50% 50% no-repeat;
+    background-size: cover;
+  }
+}

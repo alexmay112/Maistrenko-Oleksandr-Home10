@@ -15,8 +15,10 @@
 @import 'components/consert-details';
 @import 'components/total-base';
 @import 'components/track-list';
+@import 'components/download-store';
+@import 'components/subscribe-form';
+@import 'components/copyrights';
 
-@import 'layout/grid';
 @import 'layout/header';
 @import 'layout/footer';
 @import 'layout/promo-section';
@@ -24,5 +26,6 @@
 @import 'layout/upcoming-and-latest';
 @import 'layout/founder-section';
 @import 'layout/popular-and-instagram';
+@import 'layout/download-section';
 
 @import 'pages/home';
