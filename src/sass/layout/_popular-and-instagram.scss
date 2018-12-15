@@ -1,5 +1,6 @@
 .popular-and-instagram {
   padding-bottom: 85px;
+
   .upcoming {
     @include respond-to('large') {
       max-width: 770px;
@@ -13,6 +14,10 @@
     @include respond-to('huge') {
       max-width: 568px;
       margin-left: 10px;
+    }
+
+    img {
+      max-width: 100%;
     }
   }
 

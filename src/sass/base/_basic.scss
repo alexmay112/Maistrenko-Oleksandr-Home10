@@ -35,17 +35,13 @@ li {
   clear: both;
 }
 
-.container {
-  max-width: 1170px;
-  margin: 0 auto;
-  padding: 0 15px;
-}
-
 body {
   font-family: 'Arial', sans-serif;
   color: $default-color-text;
 }
 
-section {
-  //min-height: 500px;
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 0 15px;
 }
